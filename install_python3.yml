@@ -1,5 +1,5 @@
 ---
-    - hosts: win1
+    - hosts: win
       gather_facts: no
       tasks:
         - name: Install python3
