@@ -1,0 +1,8 @@
+---
+    - hosts: win1
+      gather_facts: no
+      tasks:
+        - name: Uninstall python3
+          win_chocolatey:
+            name: python3
+            state: absent 
