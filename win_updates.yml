@@ -1,5 +1,5 @@
 ---
-    - hosts: win1
+    - hosts: win
       gather_facts: no
       tasks:
         - name: Install all security, critical, and rollup updates without a scheduled task
