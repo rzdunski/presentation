@@ -1,5 +1,5 @@
 ---
-- hosts: win1
+- hosts: win
   gather_facts: no
   tasks:
    - name: Install only particular updates based on the KB numbers
